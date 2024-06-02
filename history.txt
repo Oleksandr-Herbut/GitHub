@@ -1,0 +1,105 @@
+    1  git switch main
+    2  git switch main
+    3  git switch main
+    4  git switch main
+    5  git switch main
+    6  git init
+    7  git switch main
+    8  git branch -m main
+    9  git init
+   10  .code
+   11  . code
+   12  git init
+   13  git log
+   14  git status
+   15  git add .
+   16  git status
+   17  git commit -m "setupp"
+   18  git commit --amend -m "setup"
+   19  git log
+   20  git branch
+   21  git branch scss_test
+   22  git checkout scss_test
+   23  git branch -m main
+   24  ping google.com
+   25  ping --help
+   26  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   27  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   28  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   29  ssh -i ~/.ssh/id_rsa.pub ec2-user@linux.itcareerhub.de
+   30  ls -al
+   31  ls -al ~/.ssh
+   32  ls -al ~/.ssh
+   33  ls -al
+   34  ssh-keygen -t rsa
+   35  cat ~/.ssh/id_rsa.pub
+   36  ssh -i ~/.ssh/id_rsa.pub ec2-user@linux.itcareerhub.de
+   37  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   38  ls -al
+   39  mkdir git-merge
+   40  cd git-merge/
+   41  echo "Test text-1 " >> Newfile.txt
+   42  ls -la
+   43  git init
+   44  ls -la
+   45  git add .
+   46  git commi5t -m "Create Newfile "
+   47  git commit -m "Create Newfile "
+   48  git log
+   49  git branch -M main
+   50  git checkout -b new-branch
+   51  ls -la
+   52  echo "Test text-2 " > Newfile.txt
+   53  git status
+   54  git commit -am "Edit NewFile"
+   55  cat NewFile
+   56  cat NewFile.txt
+   57  git merge branch-test
+   58  git merge new-branch
+   59  git add .
+   60  git merge new-branch
+   61  git status
+   62  cat NewFile.txt
+   63  git status
+   64  git status
+   65  cd /work
+   66  cd /Work
+   67  cd /
+   68  ls -la
+   69  ls -la
+   70  mkdir monorepo
+   71  cd -r git-branch monorepo/
+   72  cp -r git-branch monorepo/
+   73  cp -r git-merge monorepo/
+   74  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   75  git init
+   76  git branch -M main
+   77  git remote add origin git@github.com:Oleksandr-Herbut/GitHub.git
+   78  git push -u origin main
+   79  echo "#GitHub" >> README.md
+   80  git commit -m "create file README.md"
+   81  git add README.md
+   82  git commit -m "create file README.md"
+   83  git remote add origin git@github.com:Oleksandr-Herbut/GitHub.git
+   84  git push -u origin main
+   85  cat ~/.ssh/id_rsa.pub
+   86  git push -u origin main
+   87  git clone https://github.com/Oleksandr-Herbut/GitHub
+   88  cd GitHub
+   89  echo ".DS_Store" > .gitignore
+   90  git add .gitignore
+   91  git commit -m "Add .gitignore"
+   92  git push origin main
+   93  git checkout -b feature
+   94  echo "#1" >> README.md
+   95  echo "node_modules/" >> .gitignore
+   96  git status
+   97  git add README.md .gitignore
+   98  git commit -m "Added a line to the README.md file and update .gitignore"
+   99  git push origin feature
+  100  git commit --amend -m "Added a line to the README.md file and update .gitignore ammend"
+  101  git push origin feature --force
+  102  git checkout main
+  103  git merge feature
+  104  git push origin main
+  105  history > history.txt
